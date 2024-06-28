@@ -1,0 +1,94 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(PICTURE/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+
+
+header {
+    background-color:#AEC6CF;
+    color: black;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header .logo {
+margin-right: 20px;
+}
+    
+header .logo img {
+    height: 90px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #E8E8E8;
+    border-radius: 20px;
+    
+}
+
+.hero .content {
+    flex: 1;
+    text-align: center;
+    
+}
+
+.hero h1 {
+    font-family: 'Fave Script Bold Pro', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+footer {
+    background-color: #AEC6CF;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
